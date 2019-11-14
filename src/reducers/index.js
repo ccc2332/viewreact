@@ -1,10 +1,13 @@
 import { combineReducers } from "redux";
 
-//登录
+
 import app from "../components/App/reducer/index.js";
 
+import viewApp from "../components/ViewApp/reducer/index.js";
+
 let rootReducer = combineReducers({ 
-    app
+    app,
+    viewApp
 });
 
 export { rootReducer };
